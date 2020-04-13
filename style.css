@@ -1,0 +1,247 @@
+
+#twiddlerPage {
+  height: 100%;
+  width: 100%;
+}
+
+#twiddlerTitle {
+  font-family: "Lucida Console", monaco, monospace;
+  font-size: 50pt;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: white;
+  font-weight: 700;
+  text-decoration: underline solid rgb(255, 255, 255);
+  font-style: italic;
+  font-variant: small-caps;
+  text-transform: capitalize;
+}
+
+#twiddlerHeader {
+  display: flex;
+  margin: auto;
+  background-color: #ffffff;
+  justify-content: center;
+  border-width: 24px;
+  border-style: double;
+  border-color: steelblue;
+  background-color: steelblue;
+}
+
+
+#twiddlerFooter {
+  display: flex;
+  height: 15em;
+  margin: 1em;
+  background-color:steelblue;
+  justify-content: center;
+  border-width: 5px;
+  border-style: double;
+  border-color: steelblue;
+  text-align: left;
+}
+
+#twiddlerMakerText {
+  font-family: "Lucida Console", monaco, monospace;
+  font-size: 50px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: white;
+  font-weight: 700;
+  text-decoration: underline solid rgb(255, 254, 254);
+  font-style: italic;
+  font-variant: small-caps;
+  text-transform: capitalize;
+}
+
+#twiddlerBody {
+  height: 47em;
+  display: flex;
+  justify-content: center;
+  border-top-width: 5px;
+  border-top-style: solid;
+  border-top-color: rgb(0, 0, 0);
+  border-right-width: 3px;
+  border-right-style: solid;
+  border-right-color: rgb(0, 0, 0);
+  border-left-width: 3px;
+  border-left-style: solid;
+  border-left-color: rgb(5, 1, 0);
+  align-items: flex-start
+}
+
+#twiddlerStream {
+  background: rgb(255,255,255);
+  width: 50%;
+  /* height: 50%; */
+  height: 100%;
+  border-right-width: 4px;
+  border-right-style: solid;
+  border-right-color: rgb(0, 0, 0);
+  overflow-y: scroll;
+  /* line-height: pt; */
+  background-color:rgb(231, 173, 153);
+  font-family: "Lucida Console", monaco, monospace;
+  font-size: 22px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: white;
+  font-weight: 700;
+  text-decoration: underline solid rgb(248, 248, 248);
+  font-style: italic;
+  font-variant: small-caps;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.twid {
+  font-family: "Lucida Console", monaco, monospace
+  font-size: 22px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: white;
+  font-weight: 650;
+  text-align: center;
+}
+
+.timestamp {
+  font-family: "Lucida Console", monaco, monospace;
+  font-size: 15px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+
+.handle {
+  font-family: "Lucida Console", monaco, monospace;
+  font-size: 30px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: white;
+  font-weight: 750;
+  text-decoration: underline solid rgb(253, 253, 253);
+  text-align: center;
+}
+
+#twiddlerSidebar {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  color: white;
+  align-items: flex-start;
+  overflow-y: scroll;
+}
+
+#twiddlerUserHistory {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  border-top-width: 3px;
+  border-top-style: solid;
+  border-top-color: rgb(7, 1, 0);
+  overflow-y: scroll;
+  background-color: rgb(231, 173, 153);
+  font-family: "Lucida Console", monaco, monospace;
+  font-size: 22px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: white;
+  font-weight: 700;
+  text-decoration: underline solid rgb(255, 255, 255);
+  font-style: italic;
+  font-variant: small-caps;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+#twiddlerUserList {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  background-color: rgb(231, 173, 153);
+  font-family: "Lucida Console", monaco, monospace;
+  font-size: 22px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: white;
+  font-weight: 700;
+  text-decoration: underline solid rgb(252, 252, 252);
+  font-style: italic;
+  font-variant: small-caps;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+#refreshTwids{
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  line-height: 18px;
+  padding: 24px;
+  border-radius: 50px;
+  font-family: "Lucida Console", monaco, monospace;
+  font-weight: 700;
+  /* text-decoration: underline solid rgb(68, 68, 68);  */
+  font-style: italic;
+  font-variant: small-caps;
+  text-transform: capitalize;
+  background-image: linear-gradient(to right,rgb(193, 140, 93) 0%,rgb(193, 140, 93) 50%,rgb(193, 140, 93) 100%); 
+  box-shadow: rgb(206, 121, 107) 5px 5px 15px 5px;
+  border-top: 3px solid rgb(193, 140, 93);
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+  border-image: initial;
+  display: inline-block;
+}
+
+#refreshTwids:hover {
+  background:rgb(193, 140, 93);
+}
+
+#refreshTwids:active {
+  background:rgb(193, 140, 93);
+}
+
+#userButton {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  line-height: 18px;
+  padding: 24px;
+  border-radius: 50px;
+  font-family: "Lucida Console", monaco, monospace;
+  font-weight: 700;
+  /* text-decoration: underline solid rgb(68, 68, 68);  */
+  font-style: italic;
+  font-variant: small-caps;
+  text-transform: capitalize;
+  background-image: linear-gradient(to right,rgb(193, 140, 93) 0%,rgb(193, 140, 93) 50%,rgb(193, 140, 93) 100%); 
+  box-shadow: rgb(206, 121, 107) 5px 5px 15px 5px;
+  border-top: 3px solid rgb(193, 140, 93);
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+  border-image: initial;
+  display: inline-block;
+}
+
+#user:hover {
+  background:rgb(193, 140, 93);
+}
+
+#user:active {
+  background:rgb(193, 140, 93);
+}
+
+#twiddlerInput {
+  width: 50px;
+}
+
+#twiddlerName {
+  width: 50px;
+}
+
